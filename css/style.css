@@ -156,7 +156,7 @@ html, body {
   background: -webkit-linear-gradient(top, rgba(255,255,255,0.81) 47%, transparent );
   background: -o-linear-gradient(top, #fff, transparent);
   background: -moz-linear-gradient(top, #fff, transparent);
-  background: linear-gradient(top, #fff, transparent); }
+  background: linear-gradient(to bottom, #fff, transparent); }
   .text_prof_helpful p {
     font: 400 13px "Source Sans Pro", sans-serif;
     color: #1b2618;
