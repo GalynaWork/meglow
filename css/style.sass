@@ -1,0 +1,186 @@
+$font-family: 'Source Sans Pro', sans-serif
+html, body
+  height: 100%
+.header_location
+  background: -webkit-linear-gradient(right, #fbfdfd , #6088c3) /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #fbfdfd,  #6088c3) /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #fbfdfd,  #6088c3) /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #fbfdfd ,  #6088c3) /* Standard syntax */
+  ul
+    max-width: 1400px
+    margin: 0 auto
+    height: 74px
+    display: flex
+    display: -webkit-flex
+    flex-direction: column
+    -webkit-flex-direction: column
+    justify-content: center
+    -webkit-justify-content: center
+    li
+      font: 400 14px $font-family
+      color: #fff
+      text-align: right
+      margin-right: 24px
+      letter-spacing: -0.03em
+.col-sm-12
+  position: relative
+.logo
+  z-index: 2
+  position: absolute
+  top: -74px
+  left: 25px
+  a
+    display: block
+    img
+      max-width: 443px
+      width: 100%
+.box_logo
+  max-width: 1400px
+  margin: 0 auto
+  position: relative
+
+.header_number
+  max-width: 1400px
+  margin: 0 auto
+  width: 100%
+  height: 48px
+  background: #fff
+  display: flex
+  display: -webkit-flex
+  justify-content: center
+  -webkit-justify-content: center
+  flex-direction: column
+  -webkit-flex-direction: column
+  text-align: right
+  a
+    font: 700 23px $font-family
+    color: #1b2618
+    margin-right: 24px
+    span
+      color: #93b0ca
+      font-size: 19px
+      margin-right: 3px
+.blue_line
+  background: #4070b7
+  height: 12px
+.navbar-default
+  background-color: #fff
+  border-color: #fff
+.container-fluid.navbar
+  max-width: 1400px
+  margin: 0 auto
+.nav.navbar-nav
+  float: none
+  display: flex
+  display: -webkit-flex
+  justify-content: center
+  -webkit-justify-content: center
+  margin: 0
+  a
+    font: 700 20px $font-family
+    color: #1b2618
+    letter-spacing: 0.01em
+    padding: 7px 15px
+    padding-bottom: 4px
+    &:hover
+      color: #6088c3
+      background: #fff
+
+  li
+    position: relative
+    &:after
+      z-index: 2
+      content: ""
+      position: absolute
+      top: 11px
+      right: -1px
+      width: 2px
+      height: 21px
+      background: #1b2618
+    &:last-child
+      &:after
+        display: none
+
+.navbar
+  position: relative
+  min-height: 36px
+  margin-bottom: 0px
+
+.img_text
+  max-width: 1400px
+  margin: 0 auto
+  height: calc(100% - 170px)
+  .bg_autumn
+    width: 100%
+.main_section
+  position: relative
+  background: url('../images/home_bg.jpg') no-repeat
+  background-size: cover
+
+  height: calc(100% - 85px)
+  .blazon
+    position: absolute
+    bottom: 14px
+    left: 14px
+  .prof_helpful
+    position: absolute
+    right: 55px
+    bottom: 16px
+    width: 566px
+.title_prof_helpful
+
+  background-color: rgba(64, 112, 183, 0.8)
+  color: #fff
+  height: 64px
+  h2
+    font-family: 'Unna', serif
+    font-size: 33px
+    margin: 0
+    padding-top: 9px
+    text-align: center
+    line-height: 32px
+  p
+    font: 300 12px $font-family
+    margin: 0
+    margin-right: 35px
+    text-align: right
+.text_prof_helpful
+  height: 240px
+  background: -webkit-linear-gradient(top, #fff , transparent) /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top,  #fff , transparent) /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top, #fff , transparent) /* For Firefox 3.6 to 15 */
+  background: linear-gradient(top,  #fff , transparent) /* Standard syntax */
+  p
+    font: 400 13px $font-family
+    color: #1b2618
+    padding-left: 25px
+    padding-right: 14px
+    width: 100%
+    padding-top: 8px
+    letter-spacing: -0.01em
+footer
+  background: #9db8cf
+  bottom: 0
+  right: 0
+  left: 0
+  position: absolute
+  text-align: center
+  height: 85px
+  display: flex
+  display: -webkit-flex
+  flex-direction: column
+  -webkit-flex-direction: column
+  justify-content: center
+  -webkit-justify-content: center
+
+  p
+    font: 400 10px $font-family
+    color: #1b2618
+    margin: 0
+    font-weight: bold
+    margin-right: 90px
+    margin-left: 90px
+  div
+
+    max-width: 1400px
+    margin: 0 auto
