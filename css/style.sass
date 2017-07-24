@@ -116,8 +116,9 @@ html, body
   position: relative
   background: url('../images/home_bg.jpg') no-repeat
   background-size: cover
+  background-position: 50% 50%
 
-  height: calc(100% - 85px)
+  height: calc(100% - 53px)
   .blazon
     position: absolute
     bottom: 14px
@@ -165,7 +166,7 @@ footer
   left: 0
   position: absolute
   text-align: center
-  height: 85px
+  height: 53px
   display: flex
   display: -webkit-flex
   flex-direction: column
@@ -177,10 +178,18 @@ footer
     font: 400 10px $font-family
     color: #1b2618
     margin: 0
-    font-weight: bold
+    line-height: 0.95em
     margin-right: 90px
     margin-left: 90px
   div
 
     max-width: 1400px
     margin: 0 auto
+@media (min-width: 1200px)
+  footer
+    height: 44px
+  .main_section
+    height: calc(100% - 44px)
+@media (max-width: 1024px)
+  .main_section
+    background-size: contain
