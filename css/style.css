@@ -153,7 +153,7 @@ html, body {
 
 .text_prof_helpful {
   height: 240px;
-  background: -webkit-linear-gradient(top, #fff 70%, transparent);
+  background: -webkit-linear-gradient(top, #fff 50%, transparent);
   background: -o-linear-gradient(top, #fff, transparent);
   background: -moz-linear-gradient(top, #fff, transparent);
   background: linear-gradient(top, #fff, transparent); }
