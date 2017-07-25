@@ -286,6 +286,7 @@ footer {
 
   .col-sm-12.number {
     order: -1;
+    -webkit-order: -1;
     margin-bottom: 20px;
     margin-top: 5px; }
     .col-sm-12.number .header_number a {
