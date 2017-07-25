@@ -124,6 +124,8 @@ html, body {
   background-size: cover;
   background-position: 50% 50%;
   height: calc(100% - 53px); }
+  .main_section .bg_autumn {
+    display: none; }
   .main_section .blazon {
     position: absolute;
     bottom: 14px;
@@ -153,7 +155,7 @@ html, body {
 
 .text_prof_helpful {
   height: 240px;
-  background: -webkit-linear-gradient(top, #fff, transparent );
+  background: -webkit-linear-gradient(top, #fff, transparent);
   background: -o-linear-gradient(top, #fff, transparent);
   background: -moz-linear-gradient(top, #fff, transparent);
   background: linear-gradient(to bottom, #fff, transparent); }
@@ -191,14 +193,254 @@ footer {
     max-width: 1400px;
     margin: 0 auto; }
 
+.callToday {
+  display: none; }
+
+.navbar-header p {
+  display: none; }
+
+.blazon p, .blazon span {
+  display: none; }
+
 @media (min-width: 1200px) {
   footer {
     height: 44px; }
 
   .main_section {
     height: calc(100% - 44px); } }
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
+  .nav.navbar-nav a {
+    font-size: 18px; }
+
+  .logo {
+    top: -45px; }
+    .logo a img {
+      max-width: 326px; }
+
+  .main_section .prof_helpful {
+    width: 475px;
+    right: 32px; }
+
+  .title_prof_helpful h2 {
+    font-size: 28px; }
+
+  footer {
+    height: 61px; }
+
   .main_section {
-    background-size: contain; } }
+    height: calc(100% - 61px); } }
+@media (max-width: 767px) {
+  .header_location, .prof_helpful {
+    display: none; }
+
+  .logo {
+    position: relative;
+    top: -28px;
+    left: 0;
+    text-align: center; }
+    .logo a img {
+      max-width: 618px;
+      width: 90%;
+      margin: 0 auto; }
+
+  .nav.navbar-nav {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    padding: 15px 0; }
+    .nav.navbar-nav li:after {
+      width: 10px;
+      height: 10px;
+      left: -2px;
+      border-radius: 10px;
+      top: 42%;
+      background: #4070b7; }
+    .nav.navbar-nav li:last-child:after {
+      display: block; }
+
+  .nav.navbar-nav a {
+    font-size: 24px; }
+
+  #bs-example-navbar-collapse-1 {
+    margin-left: 50px;
+    width: 285px;
+    border: 1px solid #4070b7;
+    border-top: none;
+    background: #fff; }
+
+  .header_number a {
+    font-size: 25px; }
+    .header_number a span {
+      font-size: 21px;
+      margin-right: 8px; }
+  .header_number .callToday {
+    display: inline-block;
+    color: #1b2618;
+    font: 700 25px "Source Sans Pro", sans-serif;
+    margin-right: 15px; }
+
+  header .row {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column; }
+
+  .col-sm-12.number {
+    order: -1;
+    margin-bottom: 20px;
+    margin-top: 5px; }
+    .col-sm-12.number .header_number a {
+      margin: 0px;
+      text-align: center; }
+
+  .blue_line {
+    height: 77px;
+    margin-top: -92px; }
+
+  .navbar-header p {
+    display: inline-block;
+    color: #fff;
+    font: 700 34px "Source Sans Pro", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 10px; }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff; }
+
+  .navbar-toggle {
+    background: #4070b7;
+    float: none;
+    margin: 0px;
+    margin-left: 8px; }
+
+  .container-fluid > .navbar-header {
+    background: #4070b7;
+    width: 186px;
+    margin-top: -41px;
+    margin-left: 50px;
+    border-radius: 15px;
+    display: flex;
+    display: -webkit-flex; }
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 46px;
+    height: 7px;
+    border-radius: 1px; }
+
+  .navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 6px; }
+
+  .nav.navbar-nav a {
+    color: #4070b7; }
+
+  .navbar {
+    position: absolute;
+    z-index: 7; }
+
+  .img_text {
+    padding-top: 45px;
+    height: auto;
+    margin-bottom: 17px; }
+
+  .main_section {
+    height: auto;
+    background: none; }
+    .main_section .bg_autumn {
+      display: block !important;
+      margin-bottom: 30px; }
+    .main_section .blazon {
+      position: relative;
+      bottom: 0px;
+      left: 0px;
+      background: #4070b7;
+      padding: 10px;
+      display: flex;
+      display: -webkit-flex;
+      align-items: center;
+      -webkit-align-items: center;
+      justify-content: space-around;
+      -webkit-justify-content: space-around; }
+      .main_section .blazon p {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        justify-content: center;
+        -webkit-justify-content: center;
+        height: 114px;
+        background: #fff;
+        border-radius: 114px;
+        width: 114px;
+        text-align: center;
+        color: #4070b7;
+        font-size: 24px;
+        text-transform: uppercase;
+        margin: 0;
+        vertical-align: middle;
+        font-weight: 700; }
+      .main_section .blazon span {
+        display: inline-block;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700; }
+
+  footer {
+    background: #fff;
+    height: auto;
+    position: relative;
+    bottom: 12px; }
+    footer p {
+      margin-left: 5%;
+      margin-right: 5%; }
+      footer p:first-child {
+        font-size: 13px;
+        margin-bottom: 5px;
+        margin-top: 5px; } }
+@media (max-width: 600px) {
+  .navbar-header p {
+    font-size: 25px; }
+
+  .navbar-toggle .icon-bar {
+    height: 4px; }
+
+  .blue_line {
+    height: 37px;
+    margin-top: -62px; }
+
+  .container-fluid > .navbar-header {
+    width: 161px;
+    margin-top: -18px;
+    margin-left: 10px; }
+
+  .navbar-header p {
+    margin-bottom: 6px; }
+
+  #bs-example-navbar-collapse-1 {
+    margin-left: 10px; } }
+@media (max-width: 500px) {
+  .main_section .blazon p {
+    height: 90px;
+    border-radius: 90px;
+    width: 90px;
+    font-size: 22px; }
+  .main_section .blazon img {
+    width: 90px; }
+  .main_section .blazon span {
+    font-size: 22px; } }
+@media (max-width: 430px) {
+  .main_section .blazon p {
+    height: 77px;
+    border-radius: 77px;
+    width: 77px;
+    font-size: 14px; }
+  .main_section .blazon img {
+    width: 77px; }
+  .main_section .blazon span {
+    font-size: 12px; }
+
+  .nav.navbar-nav a {
+    font-size: 22px; } }
 
 /*# sourceMappingURL=style.css.map */
