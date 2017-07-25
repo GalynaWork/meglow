@@ -14,7 +14,23 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Unna" rel="stylesheet">
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
+        ga('create', 'UA-90490330-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
 </head>
 <body>
 <header>
@@ -28,17 +44,18 @@
 
             </div>
             <div class="box_logo">
-            <div class="logo"><a href="index.html" title="Law Offices of Micheal E. Graham">
-                <img src="images/logo1.png" alt="Law Offices of Micheal E. Graham"
-                     title="Law Offices of Micheal E. Graham"/></a>
-            </div>
+                <div class="logo"><a href="index.html" title="Law Offices of Micheal E. Graham">
+                    <img src="images/logo1.png" alt="Law Offices of Micheal E. Graham"
+                         title="Law Offices of Micheal E. Graham"/></a>
+                </div>
             </div>
 
         </div>
-        <div class="col-sm-12">
-        <div class="header_number"><a href="tel:530-587-1177"><span class="glyphicon glyphicon-earphone"
-                                                                          aria-hidden="true"></span>530-587-1177</a>
-        </div>
+        <div class="col-sm-12 number">
+            <div class="header_number"><a href="tel:530-587-1177"><span class="callToday">call today</span><span
+                    class="glyphicon glyphicon-earphone"
+                    aria-hidden="true"></span>530-587-1177</a>
+            </div>
         </div>
         <div class="col-sm-12 blue_line"></div>
     </div>
@@ -48,13 +65,13 @@
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                         data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
 
                 </button>
-                <p style="display: none">menu</p>
+                <p>menu</p>
 
             </div>
 
@@ -77,9 +94,11 @@
 </header>
 <section class="row img_text">
     <div class="col-sm-12 main_section">
-        <img style="display: none" class="bg_autumn" src="images/home_bg.jpg" title="autumn" alt="autumn"/>
+        <img class="bg_autumn" src="images/home_bg.jpg" title="autumn" alt="autumn"/>
         <div class="blazon">
-            <img src="images/blazon_home.png"  title="blazon" alt="blazon"/>
+            <p>since <br>1977</p>
+            <img src="images/blazon_home.png" title="blazon" alt="blazon"/>
+            <span>estate planning & <br>trust administration</span>
 
         </div>
         <div class="prof_helpful">
@@ -104,14 +123,18 @@
 </section>
 <footer>
     <div>
-    <p>Privacy Policy | Site Map Copyright © 2017 www.meglaw.com All rights reserved </p>
-    <p>Disclaimer of Liability: Although The Law offices of Michael E. Graham make reasonable efforts to keep material
-        on this Web site current, please understand that laws, regulations, other legal authorities and other
-        information change quickly and may not be fully reflected on this site without delay. Therefore, you should not
-        act upon any information on this Web site without seeking professional counsel. The Law Offices of Michael E.
-        Graham make no warranties, representations, or claims of any kind with respect to any of the information on this
-        Web site, including without limitation the accuracy, completeness, and suitability for any purpose of this
-        information.</p>
+        <p>Privacy Policy | Site Map Copyright © 2017 www.meglaw.com All rights reserved </p>
+        <p>Disclaimer of Liability: Although The Law offices of Michael E. Graham make reasonable efforts to keep
+            material
+            on this Web site current, please understand that laws, regulations, other legal authorities and other
+            information change quickly and may not be fully reflected on this site without delay. Therefore, you should
+            not
+            act upon any information on this Web site without seeking professional counsel. The Law Offices of Michael
+            E.
+            Graham make no warranties, representations, or claims of any kind with respect to any of the information on
+            this
+            Web site, including without limitation the accuracy, completeness, and suitability for any purpose of this
+            information.</p>
     </div>
 </footer>
 
